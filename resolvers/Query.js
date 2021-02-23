@@ -1,6 +1,17 @@
+const { name } = require("faker");
+
 const Query = {
     persons: () => {
-        throw Error("Not Defined yet!")
+        return [
+            {
+                firstname: name.firstName(),
+                lastname: name.lastName()
+            },
+            {
+                firstname: name.firstName(),
+                lastname: name.lastName()
+            }
+        ]
     }
 }
 
