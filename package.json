@@ -1,0 +1,27 @@
+{
+  "name": "graphql-basics-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityanmishrax86/graphql-basics-101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityanmishrax86/graphql-basics-101/issues"
+  },
+  "homepage": "https://github.com/adityanmishrax86/graphql-basics-101#readme",
+  "dependencies": {
+    "apollo-server-koa": "^2.21.0",
+    "cross-env": "^7.0.3",
+    "faker": "^5.4.0",
+    "graphql": "^15.5.0",
+    "koa": "^2.13.1"
+  }
+}
